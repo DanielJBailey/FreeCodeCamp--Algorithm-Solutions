@@ -10,13 +10,16 @@ Reverse the provided string.
 You may need to turn the string into an array before you can reverse it.
 Your result must be a string.
 
-## 3.Factorialize a Number
+## 3. Factorialize a Number
 Return the factorial of the provided integer.
 If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
 Factorials are often represented with the shorthand notation n!
 
-## 4.Find the Longest Word in a String
+## 4. Find the Longest Word in a String
 Return the length of the longest word in the provided sentence.
 Your response should be a number.
 
+## 5. Return Largest Numbers in Arrays
+Return an array consisting of the largest number from each provided sub-array. For simplicity, the provided array will contain exactly 4 sub-arrays.
+Remember, you can iterate through an array with a simple for loop, and access each member with array syntax arr[i].
 

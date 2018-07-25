@@ -22,3 +22,13 @@ function findLongestWordLength(str) {
     str = str.split(' ').sort(function(a,b) {return b.length - a.length;});
     return str[0].length; 
 }
+
+/// 5. Return Largest Numbers in Arrays
+function largestOfFour(arr) {
+    let newArray = [];
+    for(let i = 0; i < arr.length; i++) {
+      arr[i].sort(function(a,b){return b - a});
+      newArray.push(arr[i][0]);
+    }
+    return newArray; 
+}
