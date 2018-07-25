@@ -14,3 +14,9 @@ Your result must be a string.
 Return the factorial of the provided integer.
 If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
 Factorials are often represented with the shorthand notation n!
+
+## 4.Find the Longest Word in a String
+Return the length of the longest word in the provided sentence.
+Your response should be a number.
+
+

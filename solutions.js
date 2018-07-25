@@ -16,3 +16,9 @@ function factorialize(num) {
     if(num === 0) {return 1};
     return num * factorialize(num-1);
 }
+
+/// 4. Find the Longest Word in a String
+function findLongestWordLength(str) {
+    str = str.split(' ').sort(function(a,b) {return b.length - a.length;});
+    return str[0].length; 
+}
