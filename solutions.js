@@ -11,3 +11,8 @@ function reverseString(str) {
     return str.split('').reverse().join('');
 }
 
+/// 3. Factorialize a Number
+function factorialize(num) {
+    if(num === 0) {return 1};
+    return num * factorialize(num-1);
+}

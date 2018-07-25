@@ -9,3 +9,8 @@ You are given a variable celsius representing a temperature in Celsius. Use the 
 Reverse the provided string.
 You may need to turn the string into an array before you can reverse it.
 Your result must be a string.
+
+## 3.Factorialize a Number
+Return the factorial of the provided integer.
+If the integer is represented with the letter n, a factorial is the product of all positive integers less than or equal to n.
+Factorials are often represented with the shorthand notation n!
