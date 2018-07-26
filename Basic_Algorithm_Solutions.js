@@ -95,3 +95,35 @@ function frankenSplice(arr1, arr2, n) {
 function bouncer(arr) {
     return arr.filter(Boolean);
 }
+
+/// 13. Where Do I Belong
+function getIndexToIns(arr, num) {
+    arr.push(num);
+    arr.sort(function(a,b) {
+      return a - b;
+    });
+    return arr.indexOf(num);
+}
+
+/// 14. Mutations
+function mutation(arr) {
+    let test = arr[1].toLowerCase();
+    let target = arr[0].toLowerCase();
+    for (var i = 0; i < test.length; i++) {
+        if (target.indexOf(test[i]) === -1)
+        return false;
+    }
+    return true;
+}
+
+/// 15. Chunky Monkey
+function chunkArrayInGroups(arr, size) {
+    let newArray = [];
+    let i = 0;
+
+    while (i < arr.length) {
+      newArray.push(arr.slice(i, i + size));
+      i += size;
+    }
+    return newArray;
+}
