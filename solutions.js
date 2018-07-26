@@ -55,7 +55,7 @@ function repeatString(str, num) {
     }
 }
 
-//8. Finders Keepers
+/// 8. Finders Keepers
 function findElement(arr, func) {
     let num = 0;
     for(let i = 0; i < arr.length; i++) {
@@ -67,4 +67,18 @@ function findElement(arr, func) {
       }
     }
     return num;
+}
+
+/// 9. Boo who 
+function booWho(bool) {
+    return typeof bool === 'boolean';
+}
+
+/// 10. Title Case a Sentence
+function titleCase(str) {
+    str = str.toLowerCase().split(' ');
+    str = str.map(function(word) {
+        return word.replace(word.charAt(0), word.charAt(0).toUpperCase());
+    });
+    return str.join(' ');     
 }

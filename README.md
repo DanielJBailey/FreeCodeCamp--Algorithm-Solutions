@@ -33,4 +33,10 @@ Truncate a string (first argument) if it is longer than the given maximum string
 ## 8. Finders Keepers
 Create a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument). If no element passes the test, return undefined.
 
+## 9. Boo who
+Check if a value is classified as a boolean primitive. Return true or false.
+Boolean primitives are true and false.
 
+## 10. Title Case a Sentence
+Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+For the purpose of this exercise, you should also capitalize connecting words like "the" and "of".
