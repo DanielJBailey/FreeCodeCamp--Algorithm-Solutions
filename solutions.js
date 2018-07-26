@@ -55,3 +55,16 @@ function repeatString(str, num) {
     }
 }
 
+//8. Finders Keepers
+function findElement(arr, func) {
+    let num = 0;
+    for(let i = 0; i < arr.length; i++) {
+      if(func(arr[i])) {
+        num = arr[i];
+        break; 
+      } else if (!func(arr[i])){
+        num = undefined;
+      }
+    }
+    return num;
+}

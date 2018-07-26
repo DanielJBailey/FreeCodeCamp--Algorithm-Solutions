@@ -30,5 +30,7 @@ This challenge can be solved with the .endsWith() method, which was introduced i
 ## 7. Truncate String
 Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a ... ending.
 
+## 8. Finders Keepers
+Create a function that looks through an array (first argument) and returns the first element in the array that passes a truth test (second argument). If no element passes the test, return undefined.
 
 
