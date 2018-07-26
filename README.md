@@ -68,3 +68,10 @@ Lastly, ["Alien", "line"], should return true because all of the letters in "lin
 Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 
 
+## Intermediate Algorithms
+
+### 1. Sum All Numbers in a Range
+We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them.
+The lowest number will not always come first.
+
+
