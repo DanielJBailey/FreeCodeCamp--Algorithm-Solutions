@@ -29,5 +29,16 @@ function diffArray(arr1, arr2) {
       }
     }
     return newArr;
-  }
+}
+
+/// 3. Seek and Destroy
+function destroyer(arr) {
+    for(var i = 1; i < arguments.length -1; i ++) {
+        arr = arr.filter(x => x !== arguments[i]);
+    }
+    return arr;
+}
+
+
+
 
