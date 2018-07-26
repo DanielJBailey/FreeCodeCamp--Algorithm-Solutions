@@ -32,3 +32,14 @@ function largestOfFour(arr) {
     }
     return newArray; 
 }
+
+/// 6. Confirm the Ending
+function confirmEnding(str, target) {
+    str = str.toLowerCase();
+    str = str.replace(/\s/g, "");
+    if(str.substr(-target.length) === target) {
+        return true
+    } else {
+        return false;
+    }
+  }
