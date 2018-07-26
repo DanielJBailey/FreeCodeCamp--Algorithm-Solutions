@@ -27,3 +27,8 @@ Remember, you can iterate through an array with a simple for loop, and access ea
 Check if a string (first argument, str) ends with the given target string (second argument, target).
 This challenge can be solved with the .endsWith() method, which was introduced in ES2015. But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
 
+## 7. Truncate String
+Truncate a string (first argument) if it is longer than the given maximum string length (second argument). Return the truncated string with a ... ending.
+
+
+

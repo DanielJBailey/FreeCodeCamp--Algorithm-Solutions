@@ -42,4 +42,16 @@ function confirmEnding(str, target) {
     } else {
         return false;
     }
-  }
+}
+
+/// 7. Truncate String
+function repeatString(str, num) {
+    let str_length = str.length;
+    if(str_length > num) {
+        str = str.substring(0, num) + '...';
+        return str;
+    } else {
+        return str;
+    }
+}
+
