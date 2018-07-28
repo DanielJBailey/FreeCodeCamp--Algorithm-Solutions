@@ -40,5 +40,26 @@ function destroyer(arr) {
 }
 
 
+/// 6. Pig Latin
+function translatePigLatin(str) {
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  if(vowels.includes(str[0])) {
+    str += 'way';
+  } else if (!vowels.includes(str[i])) {
+  let counter = 0;
+  for(var i = 0; i < str.length; i++) {
+    if(!vowels.includes(str[i])){
+      counter++;
+    } else if(vowels.includes(str[i])) {
+      break; 
+    }
+  } 
+  let replaced = str.slice(0, counter);
+  str = str.substring(counter,str.length) + replaced + 'ay';
+  }
+  return str; 
+}
+
+
 
 

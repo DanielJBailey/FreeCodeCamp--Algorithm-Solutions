@@ -80,3 +80,10 @@ Compare two arrays and return a new array with any items only found in one of th
 ### 3. Seek and Destroy
 You will be provided with an initial array (the first argument in the destroyer function), followed by one or more arguments. Remove all elements from the initial array that are of the same value as these arguments.
 
+
+### 6. Pig Latin
+Translate the provided string to pig latin.
+Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay".
+If a word begins with a vowel you just add "way" to the end.
+Input strings are guaranteed to be English words in all lowercase.
+
